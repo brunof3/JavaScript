@@ -1,0 +1,59 @@
+body {
+    background:#8f3ff8;
+    font: normal 15pt Arial;
+    position: relative;
+}
+header{
+    color:white;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+section{
+    text-align: center;
+    display:block;
+ 
+    background-color: white;
+    border-radius: 10px;
+    padding:50px;
+    width: 500px;
+    position:absolute;
+    margin:50px 380px 50px;
+    box-shadow: 3px 5px 1px rgba(0, 0, 0, 0.253);
+}
+footer{
+    display: block;
+    margin:500px 400px 500px;
+    float: center;
+    color:whitesmoke;
+    text-align: center;
+    font-style:italic;
+    position: relative;
+}
+div#inf{
+    margin-left: -30px;
+    display: block;
+    float: left;
+    position: relative;
+    font-size:13pt;
+    padding:5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0);
+}
+div#cor{
+    display: block;
+    float:right;
+    position: relative;
+    font-size: 13pt ;
+    padding: 5px;
+}
+input#idade{
+    margin-bottom: 5px;
+}
+input#sex{
+    margin-top:5px;
+}
+input#veri{
+    font-size: 15pt;
+    height:50px;
+    width:200px;
+    margin-top:50px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Peimeiros passos com DOM </title>
+    <style>
+    body {
+        background-color: rgb(251, 0, 105);
+        color: rgba(243, 241, 224, 0.979);
+        font:normal 20pt Arial,sans-serif ;
+    }
+    </style>
+</head>
+    <body>
+        <h1>Primeioros passos com DOM</h1>
+          <P>Aqui vai o resultado</P>
+          <p>Aprendendo a usar <strong>DOM</strong> em JavaScript</p>
+         <div id="msg">Clique em mim</div>
+         <script>
+             var corpo = document.body
+             var p1=window.document.getElementsByTagName("p")[1] 
+             p1.style.color = 'blue'
+            window.document.write('Está escrito assim ' + p1.innerHTML)
+           corpo.style.background = "rgb(251, 0, 105)"
+            /*var d = window.document.getElementById('msg')/*pode se adicionar um comando criando uma variável
+            d.style.background= 'green'    
+            //d.innerText = 'Estou Aguardando...' 
+            window.document.getElementById('msg').innerText = 'Ola'// Ou se pode fazer todas as alterações direto no Id do Objeto */
+            var d=window.document.querySelector('div#msg')
+            d.style.background = 'blue'
+            d.style.color = 'green'
+   
+
+         </script>
+
+    </body>
+</html>

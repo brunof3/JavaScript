@@ -1,0 +1,31 @@
+body {
+    background:#0077ff;
+    font: normal 15pt Arial;
+    padding:10px;
+}
+header{
+    color:white;
+    text-align: center;
+    text-shadow: 5px 5px 1px black;
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding:50px;
+    margin:auto;
+    width: 500px;
+    box-shadow: 3px 5px 1px rgba(0, 0, 0, 0.253);
+}
+input#ger{
+    padding: 10px;
+    margin-left: 10px;
+}
+input{
+    margin-bottom: 10px;
+}
+footer{
+    color:whitesmoke;
+    text-align: center;
+    font-style:italic;
+    text-shadow: 5px 5px 5px black;
+}

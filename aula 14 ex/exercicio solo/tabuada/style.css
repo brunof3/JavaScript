@@ -1,0 +1,57 @@
+body{
+    font:normal 15pt arial;
+    background-color: rgb(102, 143, 255);
+    color:white;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.452);;
+}
+p{
+    font-size:13pt;
+}
+input{
+    font-size: 10pt;
+    margin-top: 15px;
+    margin-right: 200px;
+}
+
+
+input.fade{
+    opacity: 1;
+
+} input.fade:hover{
+    opacity: 0.5;
+    background-color: #606060;
+}
+input#txtn{
+    opacity: 1;
+
+}
+input#txtn:hover{
+    opacity:.5;
+    background-color: #60606013;
+}
+select{
+    margin-bottom: 10px;
+    margin-right: 200px;
+}
+input#ger{
+    font-weight: bold;
+    margin-top:-25px;
+    display: block;
+    padding: 5px;
+    float: right;
+   margin-right: 100px;
+}
+section{
+    border-radius: 10px;
+    background-color:whitesmoke;
+    color:black;
+    box-shadow: 3px 3px 1px;
+    width:500px;
+    margin:auto;
+
+}
+footer{
+    margin-top: 30px;
+    font-style: italic;
+}

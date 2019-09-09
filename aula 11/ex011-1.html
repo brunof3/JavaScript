@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <style>
+    p#p1 {
+        color: green;
+        font-weight: bolder;
+    }
+
+    </style>
+    <title>VOÇÇE É BRAZILEIRU??</title>
+
+
+</head>
+<body>
+    <h1>VOUÇÇÉ ÈH BRAZILERU?</h1>
+    <p id='p1'>Qual seu país de Origem?</basefont> </p><input type="text" name='qualp' id='qualp'>
+    <input type="button" value="verificar" onclick="verificar()">
+    <div id='res'></div>
+
+    <script>
+
+    function verificar(){
+        var pais=document.querySelector('input#qualp').value
+        var res=document.querySelector('div#res')
+    
+        res.innerHTML=`<p>Seu país atual é ${pais}<p>`
+        if (pais == 'brasil'||'Brasil'){
+            res.innerHTML+=`<p><red>PaRaBèNs FiLhO dA pUtA, VoUçÇè ê´ZyLeYrO<red></p>`
+        }
+        else {
+            res.innerHTML+='<p><yellow>GrinGO fIlhO daa PuTa, vO ~tE MatTa FilHo dA pUtaA, aKi o FIchOrA y AhhM ~A$$EE nUM Ve^</yellow></p>'
+        }
+        res.innerHTML+='<p><green>Vá chupar um pau caralho!!</green></p>'
+    }
+    </script>
+</body>
+</html>
